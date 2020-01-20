@@ -173,9 +173,9 @@
 					<div class="contact-form-title">
 						Мы с вами свяжемся
 					</div>
-					<form id="form">
-						<input required type="email" placeholder="Ваша почта">
-						<input required type="tel" placeholder="Ваш телефон">
+					<form id="form" action="php.php" method="POST">
+						<input required type="email" placeholder="Ваша почта" name="mail">
+						<input required type="tel" placeholder="Ваш телефон" name="phone">
 						<button type="submit">Отправить</button>
 					</form>
 				</div>
