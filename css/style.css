@@ -717,3 +717,14 @@ header ul li:before {
 .overlay .popup-form__btn:hover {
   box-shadow: 0 0 10px #c78030;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .contact-img {
+    display: none;
+  }
+
+  .contact-form {
+    margin: 0 auto;
+  }
+}
